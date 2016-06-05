@@ -513,6 +513,8 @@
 	"login_incorrect_password": "Incorrect password",
 	"login_checking_password": "Checking",
 	"login_recovery_title": "Forgot password?",
+	"login_header": "Read  the blog DaciUne <--- web link",
+	"login_header_join": "Join DaciUne group for more information",
 	"login_code_placeholder": "Code",
 	"login_code_incorrect": "Incorrect code",
 	"login_recovery_description_md": "We have sent a recovery code to the e-mail you provided:\n\n{email}\n\nPlease check your e-mail and enter the 6-digit code we have sent here.",
