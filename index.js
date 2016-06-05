@@ -41,7 +41,12 @@ app.get('/', function (request, response) {
         response.end(data);
     });
 });
-
+app.get('/sah', function (request, response) {             
+    fs.readFile('Lobby.html', function (error, data) { 
+        response.writeHead(200, { 'Content-Type': 'text/html' });
+        response.end(data);                                      
+    });                                                          
+}); 
 app.get('/Error', function (request, response) {
   fs.readFile('Error.html', function (error, data) {
     response.writeHead(200, { 'Content-Type': 'text/html' });

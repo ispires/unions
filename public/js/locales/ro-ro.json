@@ -513,6 +513,8 @@
 	"login_incorrect_password": "Incorrect password",
 	"login_checking_password": "Checking",
 	"login_recovery_title": "Forgot password?",
+	"login_header": "Ciţi blog-ul DaciUne https://daciune.wordpress.com/ şi intraţi în grupul DaciUne pentru mai multe informaţii",
+	"login_header_join": "Intraţi în grupul DaciUne pentru mai multe informaţii",
 	"login_code_placeholder": "Code",
 	"login_code_incorrect": "Incorrect code",
 	"login_recovery_description_md": "We have sent a recovery code to the e-mail you provided:\n\n{email}\n\nPlease check your e-mail and enter the 6-digit code we have sent here.",
