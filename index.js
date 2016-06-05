@@ -36,7 +36,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function (request, response) {
-    fs.readFile('Lobby.html', function (error, data) {
+    fs.readFile('/index.html', function (error, data) {
         response.writeHead(200, { 'Content-Type': 'text/html' });
         response.end(data);
     });
